@@ -13,7 +13,9 @@ int main()
 The program will read in an integer value that the user enters on the keyboard (%d is for integers, as is printf, so b must be declared as an int) and place that value into b. */
 	
 	float area = r*r*pi;
+	int x = area;
 	printf("The circle's area is %f :)\n", area);
-
+	printf("%i\n",x);
+	
 	return 0;
 }
