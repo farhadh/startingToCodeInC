@@ -2,9 +2,16 @@
 
 int main()
 {
-	int pizzasToEat = 123;
+	int x = 123;
 	
-	int output = ++pizzasToEat; /* unary operator if you would like to have the incremented number of pizzas assinged to the out put, then ++ should come first, otherwise the pizzas get increased by one after it got assigned to the output viariable */
+	int output = ++x; /* unary operator if you would like to have the incremented number of x assigned to the out put, then ++ should come first, otherwise the x get increased by one after it got assigned to the output variable */
+
+	/*
+	   x -= 10;
+	   x += 10;
+	   x /= 10;
+	   x %=10;
+	*/
 
 	printf("%i\n", output);
 
