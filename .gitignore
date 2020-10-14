@@ -54,3 +54,4 @@ dkms.conf
 # MacOS dir
 .DS_Store
 .idea/
+playGround.c
