@@ -16,7 +16,11 @@ int main() {
 
 	// How about generating a number in a range? ;)
 
-	int maxValue = 5;
+	int maxValue;
+
+	printf("Enter the range you'd like to guess in: ");
+	scanf("%d",&maxValue);
+
 	int rangedRandNo = randNo % maxValue+1;
 	
 	printf("Guess number between 0 – %i: ", maxValue);
