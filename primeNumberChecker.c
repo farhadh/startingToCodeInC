@@ -10,11 +10,11 @@ int main() {
 	unsigned long highLimit = sqrt(inputNumber);
 	for(i=2; i<=highLimit+1;i++){
 		remainder = inputNumber % i;
-		if (remainder==0){
+		if (inputNumber != 2 && remainder==0){
 			primeNumFlag=0;
 			break;
 		}
-		else if(remainder != 0){
+		else if(inputNumber == 2 || remainder != 0){
 			primeNumFlag=1;
 		}
 	}
