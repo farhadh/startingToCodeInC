@@ -3,7 +3,8 @@
 
 int main() {
 	int primeNumFlag,i;
-	unsigned long inputNumber,remainder,j;
+	unsigned long inputNumber,remainder,j, primeNum;
+	
 	printf("Please enter the number up until which you'd like to see the prime numbers: ");
 	scanf("%ld", &inputNumber);
 	
@@ -21,12 +22,55 @@ int main() {
 			}
 		}
 		
-		if(primeNumFlag==1){
-			printf("%lu\n", j);
+		if(j != inputNumber && primeNumFlag==1){
+			primeNum = j;
+			printf("%lu, ", primeNum);	
 		}
+		else if (j == inputNumber){
+			printf("The last one %lu\n", primeNum);
+		} 
+	}	
 
-	}
 
-	
+
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
