@@ -1,3 +1,10 @@
+/*
+The logic behind the square root of the number under the test:
+
+If 𝑎.𝑏=𝑁 where 1 < 𝑎 ≤ 𝑏 < 𝑁
+𝑁 = 𝑎.𝑏 ≥ 𝑎^2 ⟺  𝑎^2 ≤ 𝑁 ⟹  𝑎 ≤ √𝑁 
+*/
+
 #include <stdio.h>
 #include <math.h>
 
