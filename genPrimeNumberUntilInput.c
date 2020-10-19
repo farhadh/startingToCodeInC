@@ -27,7 +27,7 @@ int main() {
 			printf("%lu, ", primeNum);	
 		}
 		else if (j == inputNumber){
-			printf("The last one %lu\n", primeNum);
+			printf(".\n");
 		} 
 	}	
 
