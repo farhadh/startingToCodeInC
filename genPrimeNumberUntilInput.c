@@ -3,13 +3,12 @@
 
 int main() {
 	int primeNumFlag,i;
-	unsigned long inputNumber,remainder,j, primeNum;
-	
+	unsigned long inputNumber,remainder,j;
 	printf("Please enter the number up until which you'd like to see the prime numbers: ");
 	scanf("%ld", &inputNumber);
-	
+
 	unsigned long highLimit;
-	
+
 	for (j=2;j<=inputNumber;j++){
 		for(i=2; i<=sqrt(j)+1;i++){
 			remainder = j % i;
@@ -21,56 +20,17 @@ int main() {
 				primeNumFlag=1;
 			}
 		}
-		
+
 		if(j != inputNumber && primeNumFlag==1){
 			primeNum = j;
-			printf("%lu, ", primeNum);	
+			printf("%lu, ", primeNum);
 		}
 		else if (j == inputNumber){
 			printf(".\n");
-		} 
-	}	
+		}
+	}
 
 
 
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
