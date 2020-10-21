@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 unsigned long myFunc(unsigned long num){
 	unsigned long factorial = 1;
 	for(int i=2; i<=num; i++){
